@@ -1,0 +1,128 @@
+*{
+  box-sizing:border-box;
+  /* background-size: cover; */
+  margin: 0;
+  padding: 4px;
+}
+
+ body {
+  margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color:lightcyan;
+  font-style: italic;
+  opacity: 6;
+  
+}
+
+.weather-report{
+  border-radius: 6px;
+ 
+   background-color: aliceblue; 
+ opacity: .6;
+  font-size: 27px;
+  font-style: italic;
+  font-family:Arial, Helvetica, sans-serif;
+  color:black;
+  padding: 1px;
+  text-align: center;
+position: relative;
+}
+.app{
+  content: '';
+  background-image: url('https://www.maketecheasier.com/assets/uploads/2021/11/Featured-Image-Live-Weather-Wallpapers-Android.jpg.webp');
+  background-size:cover;
+  background-repeat: no repaeat;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top: 0;
+  left:0;
+  bottom: 10%;
+ z-index:-1;
+}
+
+.app input{
+
+  margin-bottom: 58px;
+   padding-left: 10%;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 6px solid lightyellow;
+  background:gainsboro;
+}
+
+::placeholder{
+  color:teal;
+  position: absolute;
+  justify-content: center;
+}
+ 
+
+.container {
+  max-width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 0rem;
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color:lightskyblue;
+  color:black;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+h2{
+  color:azure;
+  opacity:4;
+}
+.weather{
+  color:white;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+ 
+}
+.weather .date{
+  color:honeydew;
+  font-size: 28px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+ .weather-details{
+  text-align: center;
+}
+.weather-details .temperature{
+  position: relative;
+ display: inline-block;
+ margin: 30px auto;
+ background-color:honeydew;
+ border-radius: 16px;
+ color:lightseagreen;
+ font-size: 20px;
+ font-weight: 900;
+ text-align: center;
+}
+
+.temperature .p1{
+ color: darkblue;
+}
